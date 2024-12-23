@@ -43,20 +43,6 @@ class SettingsScreen extends StatelessWidget {
         ),
         SizedBox(height: 40),
         _Button(
-          id: 1,
-          title: 'Privacy Policy',
-          onPressed: () => _launchUrl(
-              'https://docs.google.com/document/d/13nvq0rdGX2BI2NhAf1LxW_4ILWZ_8hhkUMcEptahLI0/edit?usp=sharing'),
-        ),
-        _Divider(),
-        _Button(
-          id: 2,
-          title: 'Terms of use',
-          onPressed: () => _launchUrl(
-              'https://docs.google.com/document/d/1_DhWIJ8N0kHtmfteiZe8kbdnNYgTeABxycWoQCVVHmk/edit?usp=sharing'),
-        ),
-        _Divider(),
-        _Button(
           id: 3,
           title: 'Share with friends',
           onPressed: () => _shareApp(),
